@@ -1,0 +1,26 @@
+.page-main {
+  .section-main {
+    display: flex;
+    .ads-content {
+      margin: 100px 20px 0 200px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      gap: 20px;
+      border-radius: 4px;
+      .ads-item {
+        max-width: 500px;
+        max-height: 500px;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        padding: 10px;
+        .ads-header {
+          border-bottom: 2px solid #dac6aa;
+          padding: 20px;
+          h3 {
+            color: map-get($colors, main-color);
+          }
+        }
+      }
+    }
+  }
+}
